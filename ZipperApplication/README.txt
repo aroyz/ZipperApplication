@@ -12,7 +12,7 @@ Program purpose: Create an MVC application using ASP.NET Core MVC about zippers
 							   Price      - The price of each zipper object. 
 							   Rating     - The customer rating of each zipper object. Will be from 1-5 stars.
 Program author: Abbey Roy
-Date modified:
+Date modified: 2021-10-15
 
 // START @ 9:15AM 2021-10-06 //
 9:15AM - Created ZipperApplication project
@@ -94,4 +94,9 @@ Date modified:
 6:59PM  - Figured out github! Pushed to github.
 7:25PM  - Made slight change to text on About Page.
 7:29PM  - Trying to figure out how to fix version published to Azure
+7:37PM  - Pushed final version to Azure
+7:38PM  - Review Rubric one final time!
+7:47PM  - Pushed final version to Github!
+\\ END @ 7:47PM 2021-10-15 \\
+
 
