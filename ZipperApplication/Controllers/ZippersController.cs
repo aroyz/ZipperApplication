@@ -20,9 +20,34 @@ namespace ZipperApplication.Controllers
         }
 
         // GET: Zippers
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string zipperType, string searchString) //added zipperType and searchString as parameters for Index
         {
-            return View(await _context.Zipper.ToListAsync());
+            //use LINQ to get list of genres
+            IQueryable<string> typeQuery = from z in _context.Zipper
+                                           orderby z.Type
+                                           select z.Type;
+
+            //LINQ query to select the zippers
+            var zippers = from z in _context.Zipper
+                          select z;
+
+            if (!string.IsNullOrEmpty(searchString)) //does code in curly brackets if searchString is NOT null or empty
+            {
+                zippers = zippers.Where(s => s.Name.Contains(searchString)); //sets zippers variable to contain only the zippers whose Name contains what's stored in searchString
+            } //end if
+
+            if (!string.IsNullOrEmpty(zipperType)) //does code in curly brackets if zipperType is NOT null or empty
+            {
+                zippers = zippers.Where(x => x.Type == zipperType); //sets zippers variable to contain only the zippers whose Type is the type in zipperType
+            } //end if
+
+            var zipperTypeVM = new ZipperTypeViewModel //creates a new item of type ZipperTypeViewModel
+            {
+                Types = new SelectList(await typeQuery.Distinct().ToListAsync()), //sets value of Types
+                Zippers = await zippers.ToListAsync() //sets value of Zippers
+            };
+
+            return View(zipperTypeVM);
         }
 
         // GET: Zippers/Details/5

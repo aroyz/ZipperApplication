@@ -69,3 +69,14 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/* Added Styles */
+#range-holder {
+    display: flex;
+    align-items: center;
+}
+#range-input {
+    width: auto;
+    flex-grow: 1;
+    padding: 0px;
+}

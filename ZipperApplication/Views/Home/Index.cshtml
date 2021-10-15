@@ -1,8 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <img src="~/img/crown.png" alt="golden crown drawing" style="width:150px; margin:40px 0 15px;"/>
+    <h1 class="display-4" style="margin-bottom:40px; margin-top:0px;">Royal Zippers</h1>
+    <p style="margin-bottom: 40px;">Welcome to Royal Zippers! We offer a wide selection of high quality zippers for an affordable price.</p>
+    <p style="font-size: 1.3rem; font-weight: bold; background-color: #d1c3e3; display: inline; padding: 10px 15px; border-radius: 15px;"><a asp-controller="Zippers" asp-action="Index" style="color: rebeccapurple;">Our Zippers</a></p>
 </div>

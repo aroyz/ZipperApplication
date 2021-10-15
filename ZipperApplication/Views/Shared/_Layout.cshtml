@@ -3,15 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ZipperApplication</title>
+    <title>@ViewData["Title"] - Royal Zippers</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            font-family: Courier New, Courier, monospace;
+            font-size: 17px;
+        }
+        header {
+            font-weight: bold;
+        }
+        h1 {
+            margin-top: 40px;
+        }
+        footer {
+            background-color: #d1c3e3 !important;
+            text-align: center;
+        }
+        footer a {
+            color: rebeccapurple;
+        }
+        a {
+            color: rebeccapurple;
+        }
+        a:hover {
+            color: #553399;
+        }
+        input[value="Create"], input[value="Save"] {
+            border-color: rebeccapurple;
+            background-color: rebeccapurple;
+        }
+        input[value="Create"]:hover, input[value="Save"]:hover {
+            border-color: #553399;
+            background-color: #553399;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="background-color: #d1c3e3 !important;">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ZipperApplication</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Royal Zippers</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,6 +60,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Zippers" asp-action="Index">Zippers</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About Us</a>
+                        </li>
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -39,9 +75,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="color:black !important;">
         <div class="container">
-            &copy; 2021 - ZipperApplication - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Royal Zippers - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
