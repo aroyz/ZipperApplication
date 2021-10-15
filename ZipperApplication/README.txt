@@ -91,4 +91,5 @@ Date modified:
 6:01PM  - Finished commenting, started going over assignment rubric and description to make sure I didn't miss anything
 6:06PM  - Publish to Azure
 6:42PM  - Trying to figure out github!
+6:59PM  - Figure out github! Pushed final version to github.
 
