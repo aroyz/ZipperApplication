@@ -21,3 +21,15 @@ Date modified:
 10:08AM - Research how to update my database with new model
 10:38AM - Have to restart because I messed up my model
 10:39AM - Pushed everything to github
+\\ END @ 10:40AM 2021-10-06 \\
+
+// START @ 1:28PM 2021-10-08 //
+1:28PM - Start project over
+1:29PM - Modified launchSettings.json to comment out SSL to run on college computers and use port 1234
+1:30PM - Added Zipper model
+1:33PM - Added NuGet packages
+1:34PM - Scaffolding Zipper page
+1:37PM - Added link to zipper index page to _Layout.cshtml
+1:40PM - ERROR when testing code: Accidentally set the asp-controller attribute of my new link to "Zipper" instead of "Zippers". Fixed.
+1:48PM - Whoops got distracted applying to tutor! 
+2:31PM - Uploaded to Github

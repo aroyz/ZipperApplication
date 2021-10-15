@@ -9,7 +9,7 @@ using ZipperApplication.Data;
 namespace ZipperApplication.Migrations
 {
     [DbContext(typeof(ZipperApplicationContext))]
-    [Migration("20211006143420_InitialCreate")]
+    [Migration("20211008173822_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,6 +32,9 @@ namespace ZipperApplication.Migrations
 
                     b.Property<int>("Length")
                         .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");

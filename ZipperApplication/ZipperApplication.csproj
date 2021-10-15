@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>aspnet-ZipperApplication-61A56AC5-23FD-4A3C-8BCE-971B799AFF8D</UserSecretsId>
+    <UserSecretsId>aspnet-ZipperApplication-7DA6456B-E4DD-46A6-9B97-70526E8EF482</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

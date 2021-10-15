@@ -31,6 +31,9 @@ namespace ZipperApplication.Migrations
                     b.Property<int>("Length")
                         .HasColumnType("int");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 

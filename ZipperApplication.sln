@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipperApplication", "ZipperApplication\ZipperApplication.csproj", "{44C67B07-6DCB-427B-94EA-59E5C7D8524C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipperApplication", "ZipperApplication\ZipperApplication.csproj", "{949B8904-F42E-4E40-AD74-CC96D621F250}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44C67B07-6DCB-427B-94EA-59E5C7D8524C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44C67B07-6DCB-427B-94EA-59E5C7D8524C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44C67B07-6DCB-427B-94EA-59E5C7D8524C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44C67B07-6DCB-427B-94EA-59E5C7D8524C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949B8904-F42E-4E40-AD74-CC96D621F250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949B8904-F42E-4E40-AD74-CC96D621F250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949B8904-F42E-4E40-AD74-CC96D621F250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949B8904-F42E-4E40-AD74-CC96D621F250}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C4CC61CB-1659-4A09-891B-E415B798651D}
+		SolutionGuid = {CC1FC55A-3564-4C4D-9593-45D516F7C75B}
 	EndGlobalSection
 EndGlobal
